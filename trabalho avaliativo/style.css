@@ -1,0 +1,149 @@
+body {
+  font-size: 16px;
+  transition: 0.3s;
+  background-color: #E9F4FB;
+  color: #0B283C;
+}
+
+
+.custom-navbar {
+  background-color: #C3DFF4 !important;
+}
+
+.navbar-brand,
+.nav-link {
+  color: #0B283C !important;
+}
+
+.nav-link:hover {
+  color: #288ED7 !important;
+}
+
+.titulo {
+  text-align: center;
+  padding: 30px;
+}
+
+.titulo h1 {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.titulo p {
+  text-align: justify;    
+  line-height: 1.6;    
+}
+
+.texto-intro {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: justify;
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+.main-img {
+  width: 70%;
+  max-width: 650px;
+  height: 380px;
+  object-fit: cover;
+  border-radius: 12px;
+  display: block;
+  margin: 0 auto 15px auto;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+.galeria {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.galeria img {
+  width: 90px;
+  height: 65px;
+  object-fit: cover;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+  border: 2px solid #9CCBED;
+}
+
+.galeria img:hover {
+  transform: scale(1.1);
+}
+
+.accordion-button {
+  background-color: #C3DFF4;
+  color: #0B283C;
+}
+
+.accordion-body {
+  background-color: #E9F4FB;
+}
+
+.btn-primary {
+  background-color: #288ED7;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #2075B1;
+}
+
+.btn-dark {
+  background-color: #124163;
+  border: none;
+}
+
+.dark-mode {
+  background-color: #040E16;
+  color: #C3DFF4;
+}
+
+.dark-mode .custom-navbar {
+  background-color: #0B283C !important;
+}
+
+.dark-mode .nav-link,
+.dark-mode .navbar-brand {
+  color: #E9F4FB !important;
+}
+
+.dark-mode .accordion-button {
+  background-color: #124163;
+  color: #E9F4FB;
+}
+
+.dark-mode .accordion-body {
+  background-color: #0B283C;
+  color: #C3DFF4;
+}
+
+.dark-mode .gallery img {
+  border-color: #2075B1;
+}
+
+.dark-mode .gallery img:hover {
+  border-color: #75B6E6;
+}
+
+.footer {
+  background-color: #C3DFF4;
+  color: #0B283C;
+  font-size: 14px;
+  border-top: 2px solid #9CCBED;
+}
+
+.dark-mode .footer {
+  background-color: #0B283C;
+  color: #E9F4FB;
+  border-top: 2px solid #2075B1;
+}
+.praia-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+  height: 300px;
+}
